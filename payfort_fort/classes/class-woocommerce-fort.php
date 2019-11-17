@@ -20,7 +20,7 @@ class WC_Gateway_Payfort extends Payfort_Fort_Super
         }
         
         // Define user set variables
-        $this->title               = Payfort_Fort_Language::__('Credit / Debit Card');
+        $this->title               = Payfort_Fort_Language::__('Credit Card / mada bank card');
         $this->description         = $this->get_option('description');
         $this->pfConfig            = Payfort_Fort_Config::getInstance();
         $this->pfHelper            = Payfort_Fort_Helper::getInstance();
